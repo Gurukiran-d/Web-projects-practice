@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration Form Using HTML and JS</title>
+        <meta name="description" content="Registration Form">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+
+    <body>
+    
+    <h1 class="Main_heading" id="main_heading">Registration Page</h1>
+    
+    <br>
+    <br>
+
+    
+    <form class = "MyForms" name="MyForms" method="post">
+        <div class="row">
+            <div class="column">
+                
+                
+                    <label class="fname" for="Finame">First name: *</label><br><br>
+                    <input type="text" id="fname" maxlength="10" placeholder="first name" ><br><br><br>
+                            
+                    <label for="lname">Last name: </label><br><br>
+                    <input type="text" id="lname" name="lname" maxlength="10"  placeholder="last name"><br><br><br>
+                
+                
+            </div>   
+    
+            <div class="column">
+                
+                    <label class="dob" for="dob">Date of Birth: </label><br><br>
+                    <input type="date" id="dob" name="dob" placeholder=""><br><br>
+                
+                <br>
+                    <label for="password">Password: *</label><br><br>
+                    <input type="password" id="password" name="password" required  maxlength="15" placeholder="password"><br>
+                    <p class="password_rule"> [Must contain[5-15 characters] including alphanumeric characters,atleast one uppercase,lowercase and one special character among($#%*@)] </p>
+                    <br>
+            </div>
+
+            <div class="column">
+                
+                    <label class="email" for="email">Email: </label><br><br>
+                    <input type="email" id="email" name="email"  placeholder="abc@gmail.com"><br><br><br>
+                
+            </div>
+            
+            <div class="column">
+                    <label for="phno">Phone number: *</label><br><br>
+                    <input type="number" id="phno" name="phno" placeholder="10-digit phno" required ><br><br><br>
+                
+            </div>
+        </div>
+            <label for="lname">Confirm Password: *</label><br><br>
+            <input type="password" id="cfpassword" name="cfpassword" required maxlength="15" placeholder="re-enter the password"><br><br>
+        
+        <br><br><br>
+
+       
+        <input class="Submit_btn" type="button" value="Verify" onclick="saveForm()">
+        <a href="submit.html">
+        <input class="Submit_btn" id="s"type="button" value="Submit"></a>
+        
+    </form>   
+    <br>
+    <br>
+    <h3 class="heading" id="outputheading"></h3>
+    
+    <div class="outputData" id="outputData">
+    
+            <div class="output" id="firstnameoutput"></div>
+            <br>
+            <div class="output" id="lastnameoutput"></div>
+            <br>
+            <div class="output" id="emailoutput"></div>
+            <br>
+            <div class="output" id="phnooutput"></div>
+            <br>
+            <div class="output" id="doboutput"></div>
+            <br>
+            <div class="output" id="passwordoutput"></div>
+            <br>
+
+        </div>
+        
+    </body>
+    <script src="data.js"></script>
+</html>

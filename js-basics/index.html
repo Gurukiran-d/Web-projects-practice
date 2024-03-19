@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+<style>
+    .demo{
+        font-size: large;
+        color: brown;
+    }
+</style>
+<body>
+    <br>
+    <br>
+    <h1>Welcome to Javascript Console.</h1>
+    <br>
+    <br>
+    <h3>To access JS console, open console under page Inspect options</h3>
+    <br>
+    <br>
+    <p>Check the Result of your code here.</p>
+
+    <div id="demoHello"></div>
+
+    <button id="buttonOne">Click for surpise</button>
+
+    <div id="surprise"></div>
+    
+</body>
+</html>
+
+<script>
+
+$(document).ready(function(){
+    $('#buttonOne').click(function(){
+        $("#surprise").append("<p>Hey You are doing great!</p>");
+    });
+    $('#buttonOne').hover();
+});
+</script>
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").hide();
+  });
+});
+</script>
+</head>
+<body>
+
+<h2>This is a heading</h2>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+
+<button>Click me</button>
+
+</body>
+</html>
+
+-->

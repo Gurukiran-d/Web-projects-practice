@@ -1,0 +1,207 @@
+body{
+    background-color: rgb(6, 39, 55);
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    font-size: 20px;
+}
+
+.password_rule{
+    font-family: Arial;
+    font-size: 10px;
+    color: rgb(146, 146, 146);
+}
+
+.Main_heading{
+    text-align: center;
+    font-family: Arial;
+    color: rgb(255, 223, 148);
+}
+
+.MyForms{
+    
+    font-family: Arial;
+}
+
+.column {  
+    float: left;
+    width: 33.333%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.fnamelabel{ /* First name text attributes*/
+    font-size:20px;
+    text-align: center;
+    font-style: bold;
+}
+#fname{ /* form input attributes - first name*/
+    text-align:left;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.242);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border-color: rgba(252, 252, 252, 0.342);
+    font-family: 18px;
+    border:0.7px rgb(252, 252, 252);
+}
+
+#fname:invalid{
+    border-color: rgb(255, 0, 0);
+}
+
+.lname{ /* last name text attributes*/
+    font-size:20px;
+    text-align: center;
+    font-style: bold;
+}
+#lname{ /* form input attributes - last name*/
+    text-align:left;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.242);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(252, 252, 252);
+    font-family: 18px;
+    border:0.7px rgb(252, 252, 252);
+}
+
+
+.dob{ /* DOB text attributes*/
+    font-size:20px;
+    text-align: center;
+    font-style: bold;
+}
+#dob{ /* form input attributes - DOB*/
+    text-align:left;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.242);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(252, 252, 252);
+    font-family: 18px;
+    border:0.7px rgb(252, 252, 252);
+    
+}
+
+.phno{ /* phno text attributes*/
+    font-size:20px;
+    text-align: center;
+    font-style: bold;
+}
+#phno{ /* form input attributes - phno*/
+    text-align:left;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.242);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(252, 252, 252);
+    font-family: 18px;
+    border:0.7px rgb(252, 252, 252);
+    
+    
+}
+
+.email{ /* email text attributes*/
+    font-size:20px;
+    text-align: center;
+    font-style: bold;
+}
+#email{ /* form input attributes - email*/
+    text-align:left;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.242);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(252, 252, 252);
+    font-family: 18px;
+    border:0.7px rgb(252, 252, 252);
+    
+}
+
+.password{ /* password text attributes*/
+    font-size:20px;
+    text-align: center;
+    font-style: bold;
+}
+#password{ /* form input attributes - password*/
+    text-align:left;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.242);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(252, 252, 252);
+    font-family: 18px;
+    border:0.7px rgb(252, 252, 252);
+    
+}
+
+.cfpassword{ /* cfpassword text attributes*/
+    font-size:20px;
+    text-align: center;
+    font-style: bold;
+}
+#cfpassword{ /* form input attributes - cfpassword*/
+    text-align:left;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.242);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-color: rgb(252, 252, 252);
+    font-family: 18px;
+    border:0.7px rgb(252, 252, 252);
+    
+}
+
+.Submit_btn{
+    background-color:rgba(2, 126, 154, 0.233);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgba(0, 90, 104, 0.222);
+    color: aliceblue;
+    font-family: Arial;
+
+}
+.Submit_btn:hover{
+    background-color:rgba(0, 208, 255, 0.444) ;
+}
+
+.output{
+    font-family: Arial;
+    text-align: left;
+    margin-left:100px;
+
+
+}
+.backbutton{
+    background-color:rgba(2, 126, 154, 0.233);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgba(0, 90, 104, 0.222);
+    color: aliceblue;
+    font-family: Arial;
+    text-decoration: none;
+}
+.backbutton:hover{
+    background-color:rgba(0, 208, 255, 0.444) ;
+}
+
+
+

@@ -1,0 +1,13 @@
+let lim=0;
+function shownum(lim){
+
+for(let i=2;i<lim;i++){
+    if(i%2 == 0)
+        console.log(i , "even");
+    else
+        console.log(i , "odd");
+}
+
+}
+
+shownum(10)

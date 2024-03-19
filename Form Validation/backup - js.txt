@@ -1,0 +1,44 @@
+
+
+/*Validate form works - to check if the field is empty and disply alert message*/
+function validateForm() {
+
+    let x = document.forms["MyForms"]["fname"].value;
+    if (x == "") {
+      alert("kindly fill the first name");
+      return false;
+    }
+}
+
+/* Validate Confirm password - works*/
+function validateCfPassword(){
+  const p = document.forms["MyForms"]["password"].value;
+   const cfp = document.forms["MyForms"]["cfpassword"].value;
+
+  if(p !== cfp){
+    alert("Password doesn't match");
+    return false;
+  }
+  else
+  return true;
+}
+
+/*function validatephno() {
+  
+  var phone = document.getElementById("phno").value;
+  phrr=phone.length;
+  for(let i=0;i<phrr;i++)
+    if (phone[i] <= 10) {
+    alert("Enter valid phno");
+    return false;
+  }
+}
+
+*/
+function validatephno(){
+  var phone = document.getElementById("phno").value;
+  if(phone.validity.valueMissing) {
+    phone.setCustomValidity( "Please enter your name" );
+  }
+}
+
